@@ -13,22 +13,22 @@ import java.util.List;
 /**
  * User: laichendong
  * Date: 12-8-31
- * Time: ÏÂÎç4:46
+ * Time: ä¸‹åˆ4:46
  */
 public class MongoUtil {
 	private static Logger logger = Logger.getLogger(MongoUtil.class);
 	private static Mongo m;
 	private static String[][] servers = {{"localhost", "27017"}, {"localhost", "27017"}};
 	/**
-	 * ¾©¶«Êı¾İ¿âÃû³Æ
+	 * äº¬ä¸œæ•°æ®åº“åç§°
 	 */
 	public static final String DB_360BUY = "jd";
 	/**
-	 * ÑÇÂíÑ·Êı¾İ¿âÃû³Æ
+	 * äºšé©¬é€Šæ•°æ®åº“åç§°
 	 */
 	public static final String DB_AMAZON = "amazon";
 	/**
-	 * µ±µ±Êı¾İ¿âÃû³Æ
+	 * å½“å½“æ•°æ®åº“åç§°
 	 */
 	public static final String DB_DANGDANG = "dd";
 
@@ -45,10 +45,10 @@ public class MongoUtil {
 	}
 
 	/**
-	 * »ñÈ¡Ö¸¶¨Ãû³ÆµÄDB
+	 * è·å–æŒ‡å®šåç§°çš„DB
 	 *
-	 * @param dbName Êı¾İ¿âÃû³Æ£¬Ê¹ÓÃ³£Á¿
-	 * @return DB ¶ÔÏó
+	 * @param dbName æ•°æ®åº“åç§°ï¼Œä½¿ç”¨å¸¸é‡
+	 * @return DB å¯¹è±¡
 	 */
 	public static DB getDb(String dbName) {
 		assert m != null;

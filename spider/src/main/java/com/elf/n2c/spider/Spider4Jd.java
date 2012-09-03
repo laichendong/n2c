@@ -17,7 +17,7 @@ import java.io.IOException;
 /**
  * User: laichendong
  * Date: 12-8-30
- * Time: 下午3:47
+ * Time: 涓嬪崍3:47
  */
 public class Spider4Jd {
 
@@ -33,15 +33,15 @@ public class Spider4Jd {
 				logger.error("Method failed: " + getMethod.getStatusLine());
 			}
 			return getMethod.getResponseBody();
-			//处理内容
+			//澶勭悊鍐呭
 		} catch (HttpException e) {
 			logger.warn("Please check your provided http address!");
 			e.printStackTrace();
 		} catch (IOException e) {
-			//发生网络异常
+			//鍙戠敓缃戠粶寮傚父
 			e.printStackTrace();
 		} finally {
-			//释放连接
+			//閲婃斁杩炴帴
 			getMethod.releaseConnection();
 		}
 		return null;
