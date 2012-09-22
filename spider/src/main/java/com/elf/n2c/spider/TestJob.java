@@ -15,7 +15,7 @@ public class TestJob {
 		if (logger.isDebugEnabled()) {
 			logger.info("work() - start"); //$NON-NLS-1$
 		}
-		logger.info("Spring Quartz的TestJob任务被调用！"); 
+		logger.info("Spring Quartz鐨凾estJob浠诲姟琚皟鐢紒"); 
 		if (logger.isDebugEnabled()) {
 			logger.debug("work() - end"); //$NON-NLS-1$
 		}
