@@ -11,7 +11,8 @@
         <module>dao</module>
     </modules>
 
-	<!--  中文测试  -->
+	<!-- gbk中文测试  -->
+	<!-- utf8 涓枃-->
     <properties>
     </properties>
     
